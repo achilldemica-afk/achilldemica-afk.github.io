@@ -3,9 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>achilldemica</title>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3EXCPRQ70F"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-3EXCPRQ70F')</script>
+<title>Yeni Makale — achilldemica</title>
 <style>
 :root { --bg:#faf7f2; --text:#4a3f32; --heading:#2c2416; --accent:#c4956a; --border:#e0d5c5; }
 *{box-sizing:border-box}
@@ -44,28 +42,49 @@ footer a{color:var(--accent)}
 .comments-section button[type="submit"]{font-family:-apple-system,sans-serif;font-size:14px;padding:10px 24px;background:var(--accent);color:white;border:none;border-radius:6px;cursor:pointer;align-self:flex-start;font-weight:600;transition:background 0.15s}
 .comments-section button[type="submit"]:hover{background:#b07e52}
 @media(max-width:600px){article{padding:20px 16px}article h1{font-size:1.6em}article>p:first-of-type::first-letter{font-size:2.5em}.form-row{flex-direction:column}}
-
-.posts{max-width:680px;margin:0 auto;padding:40px 20px}
-.posts h1{font-size:1.8em;color:var(--heading);margin-bottom:0.5em}
-.post-card{display:block;padding:20px 0;border-bottom:1px solid var(--border);text-decoration:none;color:var(--text);transition:padding-left 0.15s}
-.post-card:hover{padding-left:8px}
-.post-card h2{margin:4px 0;color:var(--heading);font-size:1.2em}
-.post-card p{margin:4px 0 0;font-size:14px;color:#6b5e4f}
-.post-date{font-family:-apple-system,sans-serif;font-size:12px;color:var(--accent)}
-.post-lang{font-family:-apple-system,sans-serif;font-size:11px;background:var(--accent);color:white;padding:1px 6px;border-radius:3px;margin-left:8px}
 </style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3EXCPRQ70F"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-3EXCPRQ70F')</script>
 </head>
 <body>
-<div class="posts">
-<h1>achilldemica</h1>
-
-  <a href="posts/yeni-makale.html" class="post-card">
-    <span class="post-date">2026-03-23</span>
-    <span class="post-lang">TR</span>
-    <h2>Yeni Makale</h2>
-    <p></p>
-  </a>
+<nav><a href="../">achilldemica</a></nav>
+<article>
+<h1>Yeni Makale</h1>
+<p class="meta">2026-03-23 · TR</p>
+<p>asdsadfadsf</p><div class="interactive-widget"><div style="text-align:center;padding:20px">
+  <h3 id="counter">0</h3>
+  <button onclick="document.getElementById('counter').textContent = +document.getElementById('counter').textContent + 1">Tıkla</button>
 </div>
+</div><p></p>
+</article>
+
+<section class="comments-section">
+<h3>Yorum veya Soru</h3>
+<form action="https://formspree.io/f/xbdznlqg" method="POST" onsubmit="return validateCommentForm(this)">
+  <input type="hidden" name="_subject" value="Yeni yorum: Yeni Makale">
+  <input type="hidden" name="yazi" value="Yeni Makale">
+  <input type="hidden" name="sayfa" value="posts/2026-03-23.html">
+  <div class="form-row">
+    <input type="text" name="isim" placeholder="Adınız" required>
+    <input type="email" name="email" placeholder="E-posta adresiniz" required>
+  </div>
+  <textarea name="yorum" rows="4" placeholder="Yorumunuz veya sorunuz..." required></textarea>
+  <div class="form-publish-choice">
+    <p>Yorumunuz/sorunuz yazının altında yayınlansın mı?</p>
+    <label><input type="radio" name="yayinlansin" value="evet" required> Evet, yayınlansın</label>
+    <label><input type="radio" name="yayinlansin" value="hayir" required> Hayır, sadece yazara iletilsin</label>
+  </div>
+  <button type="submit">Gönder</button>
+</form>
+</section>
+
 <footer><p>&copy; achilldemica</p></footer>
+<script>
+function validateCommentForm(f) {
+  var r = f.querySelector('input[name="yayinlansin"]:checked');
+  if (!r) { alert('Lütfen yorumunuzun yayınlanıp yayınlanmayacağını seçin.'); return false; }
+  return true;
+}
+</script>
 </body>
 </html>
