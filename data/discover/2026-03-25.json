@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Mineral-facilitated aqueous synthesis of hydrogen cyanide from prebiotically abundant amino acids for chemical evolution.",
+    "journal": "PNAS",
+    "authors": "Yang Zening et al.",
+    "doi": "10.1073/pnas.2515805123",
+    "url": "https://doi.org/10.1073/pnas.2515805123",
+    "pmid": "41871242",
+    "summary": "Yaygın varsayımın aksine HCN, metan atmosferi gerektirmeden, amino asitlerden MnO2 gibi jeokimyasal olarak mevcut mineraller aracılığıyla anaerobik sulu ortamda sentezlenebilmektedir. Glisin-siyanid dönüşümü geniş bir pH aralığında (%57 maksimum seçicilikle) gerçekleşmekte; reaksiyon mekanizması klasik dekarboksilasyon yerine α-C-H bağının MnO2 tarafından aktivasyonunu içermektedir. Tüm proteinojenik amino asitler ve kısa peptitler için HCN üretimi gözlemlenmiştir.",
+    "why_interesting": "Yaşamın kökeni için kritik önem taşıyan HCN sentezinin metan-bağımlı olduğu paradigması sorgulanıyor. Amino asitler CO2/CO'dan metan-bağımsız sentezlenebildiğinden, bu çalışma indirgeyici olmayan atmosfer koşullarında da sürekli kimyasal evrimi açıklamaktadır. Prebiyotik kimya için gerçek anlamda paradigma-kırıcı: HCN'nin kaynağı yeniden tanımlanıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "An activated wheat CCG10-NLR immune receptor forms an octameric resistosome.",
+    "journal": "Cell",
+    "authors": "Guo Guanghao et al.",
+    "doi": "10.1016/j.cell.2026.02.024",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.024",
+    "pmid": "41864205",
+    "summary": "Buğday WAI3 CCG10-NLR bağışıklık reseptörünün aktive olduğunda hem monokot hem dikot bitkilerde sekizli (oktamerik) bir resistozom oluşturduğu kryo-EM ile gösterildi. Bu yapı, bilinen pentamerik NLR resistozom yapılarından farklı olup sitoplazmik kalsiyum artışına yol açan özgün bir kanal mimarisi sergilemiştir. EDVID motifinden yoksun CC domainlerine sahip çok sayıda NLR'nin bu konfigürasyonu paylaşıyor olabileceği ileri sürülmüştür.",
+    "why_interesting": "NLR resistozomların evrensel olarak pentamerik yapıda olduğu anlayışı kırılıyor; oktamerik yapı hem mono hem dikotlarda korunmuş. Farklı krallıklar arasında paylaşılan bu bağışıklık mekanizması, omurgalılar dahil NLR biyolojisi için yeni bir yapısal çerçeve önermektedir. Metodolojik olarak kryo-EM ile canlı bağışıklık reseptörü aktivasyonunun eş zamanlı incelenmesi dikkat çekicidir.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "KLF2 overrides the resident memory CD8 T cell differentiation program, in opposition to KLF3.",
+    "journal": "PNAS",
+    "authors": "DePauw Taylor A et al.",
+    "doi": "10.1073/pnas.2533700123",
+    "url": "https://doi.org/10.1073/pnas.2533700123",
+    "pmid": "41871244",
+    "summary": "KLF2'nin devre dışı bırakılması, CD8+ T hücrelerinin dolaşımdan erken çıkarak doku-rezidans bellek (TRM) fenotipini kazanmasına yol açmaktadır. KLF3 ise bazı dolaşım alt kümelerini artırırken lenfoid dokulardaki TRM üretimini kısıtlamaktadır. Her iki faktör uzun ömürlü efektör hücre farklılaşması için zorunludur; bu bulgu KLF ailesinin T hücre yöneliminde hiyerarşik bir kontrol noktası oluşturduğunu ortaya koymaktadır.",
+    "why_interesting": "T hücre bellek farklılaşmasını kontrol eden onlarca faktörün bağımsız birikimli etkiyle çalıştığı görüşü sorgulanıyor: KLF2 tek başına TRM programını bloke eden bir ana düzenleyici olarak tanımlandı. Bu 'hiyerarşik baskı' modeli kanser bağışıklığı ve aşı bağışıklığı için belirleyici hedef açılımları sunuyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Propofol versus ketamine in rapid sequence intubation in critically ill patients: a prospective, randomized, controlled trial.",
+    "journal": "Intensive Care Medicine",
+    "authors": "Schmidt Raysa Cristina et al.",
+    "doi": "10.1007/s00134-026-08351-3",
+    "url": "https://doi.org/10.1007/s00134-026-08351-3",
+    "pmid": "41870554",
+    "summary": "207 kritik hasta üzerinde yürütülen bu RCT'de ketaminin ilk 10 dakikada propofole kıyasla daha az MAP düşüşüne neden olduğu gösterildi, ancak bu fark klinik olarak anlamlı veya kalıcı değildi. 7. gün mortalitesi ketamin kolunda daha yüksek bulundu (%33 vs %23,8). Kardiyovasküler kollaps oranları ise beklentinin aksine her iki kolda da önemli ölçüde gerçekleşti.",
+    "why_interesting": "Kritik hastalarda RSI için ketaminin hemodinamik açıdan net üstün olduğu varsayımı, bu çalışmayla sorgulanıyor. 'Hipotansiyon riski' gerekçesiyle yapılan ajan seçiminin kanıt temeli sarsılmış; mortalite eğilimi tersine işaret ediyor. Yaygın klinik pratiği doğrudan etkileyen beklenmedik bir bulgu.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Identifying a cancer therapeutic target: Cell-SELEX identifies a membrane protein for aptamer-mediated growth suppression.",
+    "journal": "PNAS",
+    "authors": "Cui Wei et al.",
+    "doi": "10.1073/pnas.2514681123",
+    "url": "https://doi.org/10.1073/pnas.2514681123",
+    "pmid": "41871245",
+    "summary": "Yeni geliştirilen Apt-MGPH yöntemiyle meme kanseri hücrelerinde CW06 aptameri hedefi mitokondriyal taşıyıcı SLC25A24 olarak belirlendi. CW06 tedavisi beklenmedik biçimde SLC25A24 ekspresyonunu artırarak metionin metabolizmasını bozuyor, sitoplazmik SAM'ı tüketiyor ve p21-HMGA1 ekseni üzerinden G1 hücre döngüsü tutuklanmasına neden oluyor. Farelerde tümör büyümesini inhibe etti; sağlıklı dokular etkilenmedi.",
+    "why_interesting": "Hem metodolojik yenilik (Apt-MGPH: canlı hücre yüzeyinde natif hedef tespiti için yeni yaklaşım) hem beklenmedik mekanizma: aptamerin kendi hedefini aşırı eksprese ettirerek büyümeyi baskılaması klasik 'hedef blokajı' paradigmasını tersine çeviriyor. Mitokondri-metionin-senescence bağlantısı kanser biyolojisinde yeni bir eksen açıyor.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "The m5C orchestrator NSUN7 drives SPARC/HMGB1 axis-mediated inflammation to exacerbate kidney injury.",
+    "journal": "PNAS",
+    "authors": "Dong Yu-Hang et al.",
+    "doi": "10.1073/pnas.2511296123",
+    "url": "https://doi.org/10.1073/pnas.2511296123",
+    "pmid": "41871257",
+    "summary": "RNA m5C metiltransferaz NSUN7'nin akut böbrek hasarında (AKI) renal inflamasyonun ana sürücüsü olduğu gösterildi; NSUN7, SPARC'ı upregüle ederek HMGB1 ile etkileşim yoluyla tübüler-makrofaj crosstalk'ını ve proinflamatuvar makrofaj infiltrasyonunu artırmaktadır. Böbrek-spesifik DNA tetrahedron moleküler taşıyıcısıyla Nsun7 silencingi AKI modellerinde inflamasyonu azalttı.",
+    "why_interesting": "RNA epigenetiği ile böbrek inflamasyonu arasında daha önce tanımlanmamış bir eksen (m5C→NSUN7→SPARC→HMGB1) ortaya konuyor. Ayrıca böbrek-spesifik nano-taşıyıcı (DNA tetrahedron) ile in vivo terapötik silencing, metodolojik yenilik açısından dikkat çekici. RNA modifikasyonlarının organ-spesifik immünopatolojide sürücü rol oynadığı yeni bir çerçeve.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "IFNγ-associated immune-metabolic remodeling is linked to serotonin-kynurenine imbalance and cortical vulnerability in lupus-prone mice.",
+    "journal": "Frontiers in Immunology",
+    "authors": "Matmat Karim et al.",
+    "doi": "10.3389/fimmu.2026.1740039",
+    "url": "https://doi.org/10.3389/fimmu.2026.1740039",
+    "pmid": "41869319",
+    "summary": "MRL/Lpr lupus-yatkın farelerde sistemik IFNγ seviyeleri plazma nörofilament light (NfL) ile güçlü korelasyon gösterirken, kortikal metabolomikte triptofan metabolizması serotonindir yönünden kinürenin yoluna saptırılmakta; artan QA/KA oranı eksitatuvar nörotoksisite ortamı oluşturmaktadır. Kortikal serotonin seviyeleri kaşıntı benzeri exploratory davranışla ilişkilendirildi.",
+    "why_interesting": "Periferik otoimmün aktivasyonun (IFNγ) nöropsikiyatrik belirtilere nasıl yol açtığını açıklayan mekanik bir köprü kuruluyor: immün→metabolik→serotonerjik depletion→davranış zinciri. Bu bağlantı NPSLE için öngörülebilir biyobelirteç çerçevesi (IFNγ + NfL + kinürenin metabolitleri) sunuyor; nöroloji, psikiyatri ve romatolojiyi birleştiriyor.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "Endometrial immune cell profile at the time of frozen embryo transfer as prognostic indicator of live birth.",
+    "journal": "Frontiers in Immunology",
+    "authors": "Rodriguez Suset et al.",
+    "doi": "10.3389/fimmu.2026.1719211",
+    "url": "https://doi.org/10.3389/fimmu.2026.1719211",
+    "pmid": "41869347",
+    "summary": "Frozen embriyo transferi sırasında kateter ucundan elde edilen endometriyal hücrelerin profillenmesiyle γδ T hücrelerinin canlı doğumla pozitif (AUC=0,72), CD66b+ nötrofillerin ise implantasyon başarısızlığıyla pozitif ilişkili olduğu (AUC=0,75) bulundu. Demografik özellikler gruplar arasında farklılık göstermedi. Transfer anında uterus immün ortamının sonuçla bağlantısını gösteren ilk çalışmalardan biri.",
+    "why_interesting": "Nötrofil varlığının implantasyonu olumsuz etkilemesi, inflamatuvar hücrelerin 'zararı' hakkındaki beklentiyle örtüşüyor gibi görünse de γδ T hücrelerinin pozitif prediktör olması beklenmedik: bu nadir T hücre alt kümesi genellikle güçlü sitotoksik aktiviteyle bilinir. Minimal invazif (kateter yıkaması) bir yöntemle IVF başarısını öngören immün profil, klinik uygulamayı değiştirebilir.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Development and characterization of chimeric antigen receptor macrophages for amyloid clearance.",
+    "journal": "Frontiers in Immunology",
+    "authors": "Balachandran Manasi et al.",
+    "doi": "10.3389/fimmu.2026.1783851",
+    "url": "https://doi.org/10.3389/fimmu.2026.1783851",
+    "pmid": "41869320",
+    "summary": "Polikatyonik p5 peptidinin çeşitli amiloid fibril türlerini tanıyan evrensel bir CAR ligandı olarak kullanılabildiği gösterildi; bu yaklaşımla oluşturulan CAR makrofajları (CAR-M) pan-amiloid bağlanma ve uptake kapasitesi sergiledi. Farklı CH2/CH3 spacer tasarımları, glikozilasyon etkileşimleri ve opsonizasyon/kompleman bağımlı güçlenme karakterize edildi.",
+    "why_interesting": "CAR hücre terapisi neredeyse yalnızca T ve NK hücreleri üzerinden yürütülürken, bu çalışma makrofajları sistemik amiloidoz için ilk kez CAR platformuna taşıyor. scFv yerine küçük polikatyonik peptid kullanımı, tek bir yapıyla tüm amiloid tiplerine karşı evrensel bir hedefleme sunuyor. İki farklı alandan (hücresel immünoterapi + amiloid biyolojisi) beklenmedik sentez.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Quality of Bag-Mask Ventilation for Children Before Intubation: Single-Center PICU Pilot Observational Study, 2019-2022.",
+    "journal": "Pediatric Critical Care Medicine",
+    "authors": "Shepard Lindsay N et al.",
+    "doi": "10.1097/PCC.0000000000003925",
+    "url": "https://doi.org/10.1097/PCC.0000000000003925",
+    "pmid": "41870213",
+    "summary": "PICU'da entübasyon öncesi uygulanan 8446 BVM nefesinin %78'i en az bir düşük kalite kriterini karşıladı; bu oran infantlarda ve küçük çocuklarda %85-86'ya ulaşırken büyük çocuklarda %58'de kaldı. Düşük kaliteli BVM, olumsuz havayolu olayları açısından 2,8 kat artmış odds ile ilişkiliydi.",
+    "why_interesting": "Temel bir acil müdahale tekniğinin gerçek dünya kalitesinin bu denli düşük olduğu ve bunu klinik sonuçlarla niceliksel olarak ilişkilendiren verilerin mevcut olmaması beklenmedik bir bulgu. Pediatrik kritik bakımda 'standart' kabul edilen bir pratiğin ciddi biçimde sorgulanmasını gerektiriyor; solunum fonksiyon monitörü metodolojisi de ilgi çekici.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Archaeogenetic insights into the demographic history of Late Neanderthals.",
+    "journal": "PNAS",
+    "authors": "Fotiadou Charoula M et al.",
+    "doi": "10.1073/pnas.2520565123",
+    "url": "https://doi.org/10.1073/pnas.2520565123",
+    "pmid": "41871253",
+    "summary": "Altı arkeolojik alandan 10 Neandertal mitokondriyal DNA dizisiyle Avrupa'daki Geç Neandertallerin neredeyse tamamının yaklaşık 65.000 yıl önce güneybatı Fransa'daki bir refugiumdan köken alan tek bir mtDNA soyuna ait olduğu gösterildi. Mtdna efektif popülasyon büyüklüğünde 45.000-42.000 yıl önce keskin bir düşüş tespit edilerek soyu tükenmeden kısa süre önce gerçekleşen demografik çöküş belgelendi.",
+    "why_interesting": "Avrupa Geç Neandertalleri için çoklu ve çeşitli soyların birlikte bulunduğu modeli çöküyor: Neredeyse tek bir soy Avrupa'nın tamamını yeniden kolonize etmiş. Bölgesel 'refugium' merkezli yayılma modeli insan evrimiyle paralellik kurarak tüm popülasyon genetiği örnülerine emsal oluşturuyor. Arkeolojik ve moleküler verilerin entegrasyonu metodolojik ilham sunuyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Interleukin-35 as a key immunoregulatory mediator in steroid-hyporesponsive severe asthma.",
+    "journal": "Frontiers in Immunology",
+    "authors": "Al-Matouq Jehan et al.",
+    "doi": "10.3389/fimmu.2026.1790621",
+    "url": "https://doi.org/10.3389/fimmu.2026.1790621",
+    "pmid": "41869316",
+    "summary": "Steroid dirençli şiddetli astımda kortikosteroid duyarsızlığının salt aşırı inflamasyon değil, immün regülatuar mekanizmaların çöküşü olduğu savunulmaktadır. IL-35'in hem Th17/innate inflamasyonu baskıladığı hem de deneysel modellerde glukokortikoid duyarlılığını geri kazandırdığı öne sürülmüştür. IL-35'in MAPK/NF-κB inhibisyonu, tolerans ağlarının genişletilmesi ve epitel bariyeri stabilitesi üzerindeki çok boyutlu etkileri özetlenmektedir.",
+    "why_interesting": "Steroid direncinin 'aşırı inflamasyon' çerçevesinden 'düzenleyici ağ çöküşü' çerçevesine geçişi paradigmatik bir yeniden tanımlamadır. Mevcut biyolojiklerin (anti-IL-5, anti-IL-4R) bu düzenleyici açığı kapatamadığı vurgulanırken IL-35'in hem düzenleyici immuüniteyi geri kazandırması hem de steroid duyarlılığını restore etmesi onu tek bir hedefte çift çözüm sunan ilginç bir aday yapıyor.",
+    "category": "yeni-çerçeve"
+  }
+]
