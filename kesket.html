@@ -11,9 +11,10 @@
 :root { --bg:#faf7f2; --text:#4a3f32; --heading:#2c2416; --accent:#c4956a; --border:#e0d5c5; }
 *{box-sizing:border-box}
 body{font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--text);line-height:1.7;margin:0}
-nav{font-family:-apple-system,sans-serif;padding:20px;max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;font-size:14px}
-nav a{color:var(--accent);text-decoration:none;font-weight:600}
-nav a:hover{text-decoration:underline}
+.tab-nav{font-family:-apple-system,sans-serif;display:flex;gap:0;max-width:1100px;margin:0 auto;padding:16px 20px 0;border-bottom:2px solid var(--border)}
+.tab-link{padding:10px 24px;text-decoration:none;font-size:14px;font-weight:600;color:var(--accent);border-bottom:2px solid transparent;margin-bottom:-2px;transition:all 0.15s}
+.tab-link:hover{color:var(--heading);border-bottom-color:var(--accent)}
+.tab-link.active{color:var(--heading);border-bottom-color:var(--heading)}
 .container{max-width:1100px;margin:0 auto;padding:20px}
 h1{font-size:1.8em;color:var(--heading);margin-bottom:0.2em;text-align:center}
 .subtitle{text-align:center;color:var(--accent);font-size:14px;font-family:-apple-system,sans-serif;margin-bottom:24px}
@@ -66,9 +67,9 @@ footer{text-align:center;padding:30px;font-family:-apple-system,sans-serif;font-
 </head>
 <body>
 
-<nav>
-  <a href="/">achilldemica</a>
-  <a href="/kesket.html" style="color:var(--heading);font-weight:700">Keşfet</a>
+<nav class="tab-nav">
+  <a href="/" class="tab-link">Yazılarım</a>
+  <a href="/kesket.html" class="tab-link active">Tıbbi Makale Keşfeti</a>
 </nav>
 
 <div class="container">
