@@ -1,0 +1,145 @@
+[
+  {
+    "title": "Hyperinnervation inhibits organ-level regeneration in mammalian skin",
+    "journal": "Cell",
+    "authors": "Tam Hannah T et al.",
+    "doi": "10.1016/j.cell.2026.02.027",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.027",
+    "pmid": "41864207",
+    "summary": "Embriyonik deri yaraları tam organ rejenerasyonu sağlarken bu kapasite doğumdan kısa süre sonra kaybolmaktadır. Çalışma, yara yerindeki fibroblastların (PWF) salgıladığı Timp1, Cxcl12 ve Ccl7 genlerinin hiperinnervasyon (aşırı sinir büyümesi) oluşturduğunu ve bunun tüm doku katmanlarında rejenerasyonu engellediğini göstermiştir. Cxcl12'nin baskılanması ya da sinir ablasyonu ile hiperinnervasyon azaltıldığında, postnatal yaralarda çok-soy rejenerasyonu yeniden mümkün hale gelmektedir.",
+    "why_interesting": "Sinir sisteminin doku rejenerasyonunu teşvik ettiği yönündeki klasik paradigmayı doğrudan çürütüyor: Burada sinirler aktif bir bariyer. Yara iyileşmesinden rejeneratif tıbba, yaşlanmadan organogeneze kadar uzanan bir dönüşüm kapısı açabilecek potansiyeliyle bu haftalık en önemli mekanistik buluş.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Efficacy and safety of oral semaglutide 14 mg (flexible dose) in early-stage symptomatic Alzheimer's disease (evoke and evoke+): two phase 3, randomised, placebo-controlled trials",
+    "journal": "The Lancet",
+    "authors": "Cummings Jeffrey L et al.",
+    "doi": "10.1016/S0140-6736(26)00459-9",
+    "url": "https://doi.org/10.1016/S0140-6736(26)00459-9",
+    "pmid": "41865758",
+    "summary": "3808 hastayı kapsayan iki büyük faz 3 RKÇ'de oral semaglutid, erken evre Alzheimer hastalarında CDR-SB skorunu plaseboya kıyasla hiç yavaşlatmadı (tahmini fark ≈0). Hayvan çalışmaları ve diyabetik/obez popülasyonlardaki gözlemsel verilerle tetiklenen büyük umutların ardından gelen bu negatif sonuç, her iki deney de erken sonlandırıldı.",
+    "why_interesting": "GLP-1 reseptör agonistlerinin demansı önleyebileceğine dair gözlemsel epidemiyolojinin RKÇ testinde başarısız olması, 'GLP-1 = nöroprotektif' narratifine ciddi bir soru işareti koyuyor. Gözlemsel verileri kausalite olarak yorumlamanın tehlikesini bir kez daha gösteriyor; aynı zamanda Alzheimer klinik geliştirme alanında büyük bir strateji revizyonunu zorunlu kılıyor.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Angiography-derived fractional flow reserve versus coronary angiography to guide coronary artery bypass grafting in patients undergoing surgical valve procedures with concomitant coronary artery disease in China (FAVOR IV-QVAS)",
+    "journal": "The Lancet",
+    "authors": "Zhu Yunpeng et al.",
+    "doi": "10.1016/S0140-6736(25)02418-3",
+    "url": "https://doi.org/10.1016/S0140-6736(25)02418-3",
+    "pmid": "41864747",
+    "summary": "Kapak ameliyatı sırasında eşlik eden koroner arter hastalığında FFR kılavuzluğunda seçici CABG yapılan grupta hastaların yalnızca %56'sına bypass uygulandı; anatomik kılavuzlukla %98'ine bypass yapılan kontrole kıyasla 30 günlük primer bileşik sonlanım %42 daha az görüldü (RR 0.58, p=0.011). 27 aylık takipte ikincil bileşik sonlanım da FFR grubunda daha iyi seyretti.",
+    "why_interesting": "Anatomik olarak 'anlamlı' görünen darlıkların tamamına bypass yapılması gerektiği yönündeki cerrahi dogmayı kırıyor. Fizyolojik değerlendirme daha az müdahaleyle daha iyi sonuç sağlıyor; 'daha az bypass = daha az zarar' ilkesini kapak cerrahisi alanında sağlam kanıtla yerleştiriyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Survival outcome of VATS compared with open lobectomy for lung cancer: an individual patient data meta-analysis of randomised trials",
+    "journal": "The Lancet",
+    "authors": "Harris Rosie A et al.",
+    "doi": "10.1016/S0140-6736(26)00031-0",
+    "url": "https://doi.org/10.1016/S0140-6736(26)00031-0",
+    "pmid": "41864749",
+    "summary": "1185 hastanın bireysel verisini kullanan bu meta-analizde VATS lobektomi, açık cerrahiye kıyasla genel sağkalımda %21 mortalite azalması sağladı (HR 0.79); hastalıksız sağkalımda ise fark yoktu. Bugüne kadar VATS'ın benimsenmesi salt non-onkolojik avantajlara dayanıyordu ve onkolojik eşdeğerliği varsayıma dayalıydı.",
+    "why_interesting": "Erken evre akciğer kanserinde VATS'ın onkolojik üstünlüğünü ilk kez randomize verilerle kanıtlıyor. 'Eşdeğer ama daha az ağrılı' varsayımından 'gerçekten daha iyi sağkalım' gerçeğine geçiş, cerrahi rehberleri için pratik sonuçları olan kritik bir fark.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Hijacking ERAD for targeted degradation of transmembrane proteins",
+    "journal": "Cell",
+    "authors": "Song Haikun et al.",
+    "doi": "10.1016/j.cell.2026.01.018",
+    "url": "https://doi.org/10.1016/j.cell.2026.01.018",
+    "pmid": "41861782",
+    "summary": "Transmembran (TM) proteinleri hedef alan ilaç geliştirme, TPD (targeted protein degradation) teknolojisinin büyük bir kör noktasıdır. Bu çalışma, ER-ilişkili degradasyon (ERAD) yolağını kullanarak TM proteinleri yıkan ERADEC adlı yeni bir kimyasal platform kurdu. PD-L1'i hedef alan ERADEC'ler, in vivo tümör baskılamada klinik kullanımdaki PD-L1 antikorundan daha güçlü etki gösterdi.",
+    "why_interesting": "PROTAC/degron teknolojisinin ulaşamadığı membran proteinleri için tamamen yeni bir degradasyon penceresi açıyor. PD-L1, HER2, EGFR gibi kanser hedeflerinin büyük bölümü TM protein olduğundan bu platform ilaç keşfinde oyun değiştirici potansiyel taşıyor.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Controlled human influenza infection reveals heterogeneous expulsion of infectious virus into air",
+    "journal": "Cell",
+    "authors": "Vargas-Maldonado Nahara et al.",
+    "doi": "10.1016/j.cell.2026.02.025",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.025",
+    "pmid": "41861822",
+    "summary": "Kontrollü influenza enfeksiyonu modeli kullanılarak geliştirilen MIST tüneliyle, enfekte bireylerden havaya salınan enfeksiyöz virüs miktarının kişiler arasında üç logaritmik kat fark ettiği ölçüldü. Bulaşıcı viral yük tükürük ve nazofarinks örneklerindeki viral yük ile ilişkiliydi; expelled aerosollarda kaynak hastadaki viral varyantlar da korunuyordu.",
+    "why_interesting": "Süper-yayıcılık (superspreading) fenomeni için uzun süredir varsayılan ama ölçülemeyen bireysel heterojenliği ilk kez doğrudan kanıtlıyor. Solunumsal virüsler için bulaşma riskinin nüfus ortalamasıyla değil bireysel ekspozisyon profiline göre değerlendirilmesi gerektiğini gösteriyor; pandemi modellemesi için kritik veri.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Thermodynamic prediction of RNA cellular activity from sequence via conformational ensembles",
+    "journal": "Cell",
+    "authors": "Geng Ainan et al.",
+    "doi": "10.1016/j.cell.2026.02.021",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.021",
+    "pmid": "41856113",
+    "summary": "HIV-1 TAR RNA'sında küçük dizi değişikliklerinin aktif/inaktif yapı oranını ~500 kat değiştirebildiği NMR ile gösterildi. Bu oran, Tat proteinine bağlanmayı ve hücresel transaktivasyonu kantitatif olarak 125-300 kat tahmin etmekte kullanıldı. İkincil yapı tahmin algoritmalarından elde edilen termodinamik çerçeve, dizi → konformasyon → hücresel aktivite zincirini sayısal olarak kapatıyor.",
+    "why_interesting": "RNA dizisinden hücresel fonksiyonu doğrudan tahmin eden ilk kantitatif termodinamik çerçeve. RNA terapötikleri ve gen düzenleme tasarımı için dizi optimizasyonunu empirik deneme-yanılmadan hesaba dayalı tasarıma dönüştürme potansiyeli taşıyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Quantitative system drift",
+    "journal": "PNAS",
+    "authors": "Veller Carl et al.",
+    "doi": "10.1073/pnas.2527137123",
+    "url": "https://doi.org/10.1073/pnas.2527137123",
+    "pmid": "41860967",
+    "summary": "Stabilize edici seçilim altındaki çok-bileşenli bir sistemi matematiksel olarak analiz eden bu çalışma, sistem ortalaması optimal değerde sabit kalırken bileşenlerin bireysel katkılarının nötr sürükleme gibi davranarak başlangıç değerlerinden uzaklaşabildiğini kanıtlıyor. Sürükleme hızı, bileşenin sistemin toplam genetik varyansına katkısıyla tersine orantılı.",
+    "why_interesting": "Neden farklı türler aynı fenotipi farklı genetik mimarilerle gerçekleştirebildiğini —'sistem sürüklenmesi'— ilk kez popülasyon-genetik bir mekanizmayla açıklıyor. Gen ifadesi evrimi, tür melezlerinde uyumsuzluk, mutualizmalarda iş bölümü ve cinsiyet belirleme sistemlerinin devrilmesi gibi görünürde alakasız biyolojik olgular için birleşik bir çerçeve sunuyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Neonatal pulmonary vascular remodeling induced by increased blood flow is associated with an antiviral-like immune signature",
+    "journal": "Frontiers in Immunology",
+    "authors": "Zheng Sixie et al.",
+    "doi": "10.3389/fimmu.2026.1780303",
+    "url": "https://doi.org/10.3389/fimmu.2026.1780303",
+    "pmid": "41859122",
+    "summary": "Konjenital kalp hastalığında artan pulmoner kan akımını taklit eden neonatal fare modelinde, pulmoner vasküler remodeling'in baskın transkriptomik imzasının viral yanıt ve interferon sinyal yolakları olduğu saptandı. Tip I interferon reseptörünün bloke edilmesi vasküler remodelinge karşı koruyucu oldu.",
+    "why_interesting": "Hemodinamik stresin tetiklediği patolojik yanıtın 'antiviral-benzeri' bir immün program olması beklenmedik; bu, pediyatrik pulmoner arteriyel hipertansiyonun patogenezinde immün checkpoint ve interferon blokajını yeni tedavi hedefleri olarak açıyor. Kardiyoloji ile innate immünoloji arasında beklenmedik bir disiplinler-arası köprü.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Early seizures and heterogeneity of physiologic recovery in heat-related illness: a nationwide registry study",
+    "journal": "Critical Care",
+    "authors": "Inukai Koichi et al.",
+    "doi": "10.1186/s13054-026-05961-7",
+    "url": "https://doi.org/10.1186/s13054-026-05961-7",
+    "pmid": "41862955",
+    "summary": "3859 ısıya bağlı hastalık vakasını kapsayan ulusal Japon registrisinde, erken nöbet geçiren hastaların başlangıçta daha yüksek laktat ve vücut ısısına sahip olmasına karşın baz fazlası, laktat ve glukozun 48 saat içinde çok daha hızlı normalize olduğu gösterildi. Çok değişkenli analizde erken nöbet, hastane mortalitesiyle ters ilişkiliydi (aOR 0.48–0.57).",
+    "why_interesting": "Isı çarpmasında nöbetin ağır SSS hasarının göstergesi olduğu klasik yorumunu sorgulayan paradoksal bulgu. Nöbet geçirenler aslında daha iyi fizyolojik toparlanma kapasitesine sahip olabilir; bu, prognoz kalibrasyonunu ve erken triaj kararlarını doğrudan etkileyen counterintuitive bir veri.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Temperature Control After In-Hospital Cardiac Arrest: Outcomes From the Discover In-Hospital Cardiac Arrest Cohort",
+    "journal": "Critical Care Medicine",
+    "authors": "Andrea Luke et al.",
+    "doi": "10.1097/CCM.0000000000007121",
+    "url": "https://doi.org/10.1097/CCM.0000000000007121",
+    "pmid": "41860326",
+    "summary": "Hastane içi kardiyak arrest sonrası komada kalan 615 hastanın %44'ünde resmi bir ısı kontrol stratejisi belgelendi. Strateji uygulananlar daha az ateş yaşadı ve ısı kontrolü daha sık aldı; ancak hayatta kalma, fonksiyonel ya da nörolojik sonlanım açısından istatistiksel fark yoktu. Hastaneler arası strateji oranı %0 ile %100 arasında değişiyordu.",
+    "why_interesting": "Uygulama oranındaki dramatik varyasyon başlı başına endişe verici; ancak asıl önemli nokta, güçlü kılavuz önerisine (sınıf IIa) rağmen hayatta kalma faydasının gösterilememesi. IHCA için TTM literatürünün yeniden değerlendirilmesi gerektiğini gösteren kritik gözlemsel veri.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Evaluation of Lung Disease in Adults with Osteogenesis Imperfecta: A Cross-Sectional, Multi-Center Study",
+    "journal": "CHEST",
+    "authors": "Derocher Chloe E et al.",
+    "doi": "10.1016/j.chest.2026.02.030",
+    "url": "https://doi.org/10.1016/j.chest.2026.02.030",
+    "pmid": "41865786",
+    "summary": "60 OI'li yetişkinde skolyoz eğrilik büyüklüğü ile pulmoner fonksiyon arasında anlamlı korelasyon bulunmadı (R=0.127). Akciğer BT'de %85.7 anormallik oranı saptandı; bronş duvarı kalınlaşması tüm OI tiplerinde yaygındı ve her iki cinsiyette de görüldü.",
+    "why_interesting": "OI'de solunum kısıtlamasının yalnızca skolyozun mekanik sonucu olduğu geleneksel görüşü çürütüyor. Bağ dokusu hastalığının doğrudan akciğer yapısını etkilediği intrinsik bir pulmoner fenotip olduğu önerilmekte; bu, izleme ve tedavi yaklaşımını kökten değiştirir.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Infection, vaccination and risk of dementia: a proposed immunological model",
+    "journal": "Frontiers in Immunology",
+    "authors": "Devine Justin et al.",
+    "doi": "10.3389/fimmu.2026.1748535",
+    "url": "https://doi.org/10.3389/fimmu.2026.1748535",
+    "pmid": "41859113",
+    "summary": "BCG, AS01 adjuvanlı herpes zoster ve RSV aşılarının demans riskini azalttığına dair epidemiyolojik veriler sentezlenerek bu koruyuculuğun 'eğitilmiş doğal bağışıklık' (trained innate immunity) mekanizmasıyla açıklanabileceği önerildi. Modele göre AS01 adjuvanının monosit/makrofaj programlaması üzerindeki uzun süreli etkileri SSS'deki kronik nöroinflamsyonu azaltıyor.",
+    "why_interesting": "Aşılama, bulaşıcı hastalık immunolojisi ve nörodejenerasyon üçgenini birleştiren disiplinler-arası bir çerçeve. Alzheimer için henüz hiçbir ajanda başarılı olmadığı düşünüldüğünde, mevcut lisanslı adjuvanlı aşıların yeniden konumlandırılması nöroprotektif strateji tartışmalarına yeni bir boyut katıyor.",
+    "category": "disiplinler-arası"
+  }
+]

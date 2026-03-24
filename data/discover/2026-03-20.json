@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Thymic health consequences in adults",
+    "journal": "Nature",
+    "authors": "Bernatz Simon et al.",
+    "url": "https://doi.org/10.1038/s41586-026-10242-y",
+    "pmid": "41851466",
+    "summary": "Derin öğrenme ile rutin BT görüntülerinden timusun fonksiyonel sağlığı ölçüldü. NLST (n=25,031) ve Framingham kohortlarında yüksek timüs sağlığı; tüm nedenlere bağlı mortalite, akciğer kanseri insidansı ve kardiyovasküler mortaliteyle bağımsız olarak ilişkiliydi. Sigara, obezite ve fiziksel aktivite timüs sağlığını etkileyen değiştirilebilir faktörler olarak saptandı.",
+    "why_interesting": "Yetişkinlerde timüsün büyük ölçüde işlevsiz olduğu köklü dogmasını doğrudan sorgular. Organ hem immün yaşlanmanın hem de hastalık yatkınlığının merkezi düzenleyicisi olarak yeniden konumlandırılıyor; önleyici tıp açısından tamamen yeni bir hedef alan açılıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Thymic health and immunotherapy outcomes in patients with cancer",
+    "journal": "Nature",
+    "authors": "Bernatz Simon et al.",
+    "url": "https://doi.org/10.1038/s41586-026-10243-x",
+    "pmid": "41851467",
+    "summary": "3.476 immün kontrol noktası inhibitörü alan kanserde timüs sağlığı, PD-L1 ve tümör mutasyon yükünden bağımsız olarak immünoterapi yanıtını öngördü. TRACERx çalışmasında timüs sağlığı TCR çeşitliliği ve TREC düzeyleriyle pozitif korelasyon gösterdi. Akciğer, melanom, meme ve renal kanser dahil birden fazla tümör tipinde sonuçlarla ilişki saptandı.",
+    "why_interesting": "Mevcut immünoterapi biyobelirteçleri neredeyse tamamen tümör merkezlidir; bu çalışma konakçının immün kompetansını tümörden bağımsız biçimde ölçmenin mümkün olduğunu ve klinik karar almayı köklü biçimde değiştirebileceğini gösteriyor. Tedavi zamanlaması ve hasta seçimi için yeni bir paradigma.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Proteasome-guided haem signalling axis contributes to T cell exhaustion",
+    "journal": "Nature",
+    "authors": "Xu Yingxi et al.",
+    "url": "https://doi.org/10.1038/s41586-026-10250-y",
+    "pmid": "41851457",
+    "summary": "Depolarize mitokondri birikmesi → artmış proteasom aktivitesi → mitokondriyal protein yıkımı → serbest düzenleyici hem → BACH2 transkripsiyon faktörünün nükleer translokasyonunun bozulması → T hücre tükenmesi zinciri tanımlandı. FDA onaylı proteasom inhibitörü bortezomib, CAR-T üretiminde kullanıldığında tükenmeyi önleyip terapötik etkinliği artırdı.",
+    "why_interesting": "T hücre tükenmesini mitokondriden nükleusa uzanan beklenmedik bir hem sinyalizasyon ekseni üzerinden açıklayan tamamen yeni bir mekanistik çerçeve. Halihazırda klinik kullanımda olan bir ilacın (bortezomib) CAR-T imalatında kullanılabileceğini göstermesi çarpıcı.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "In vivo site-specific engineering to reprogram T cells",
+    "journal": "Nature",
+    "authors": "Nyberg William A et al.",
+    "url": "https://doi.org/10.1038/s41586-026-10235-x",
+    "pmid": "41851456",
+    "summary": "CRISPR-Cas9 ribonükleoproteinleri zarf kaplı araçlarla, DNA donor şablonu ise AAV ile taşıyan iki-vektör sistemi geliştirilerek T hücrelerine özgü in vivo site-spesifik CAR transgeni entegrasyonu sağlandı. Hümanize fare modellerinde hematolojik ve solid malignitelerde terapötik düzeyde CAR-T hücresi in vivo üretildi.",
+    "why_interesting": "Ex vivo CAR-T imalatının haftalarca süren, son derece maliyetli sürecini devre dışı bırakan bir yaklaşım. Kalıcı ekspresyon ve site-spesifik entegrasyonu aynı anda başarması, sahadaki bütün diğer in vivo T hücre yeniden programlama yöntemlerinin eksikliklerini aşıyor.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Catabolism of extracellular glutathione supplies cysteine to support tumours",
+    "journal": "Nature",
+    "authors": "Hecht Fabio et al.",
+    "url": "https://doi.org/10.1038/s41586-026-10268-2",
+    "pmid": "41851454",
+    "summary": "Hücre içi GSH tükenmesi tümör büyümesini etkilemezken, tümör mikroçevresinde bol bulunan hücre dışı GSH'nin γ-glutamiltransferaz aracılığıyla yıkılması kanser hücrelerine sistein sağlıyor. Bu enzimin farmakolojik inhibisyonu sirküle eden GSH yıkımını önleyip tümör sistein düzeylerini azaltarak büyümeyi yavaşlattı.",
+    "why_interesting": "GSH'nin intrasellüler antioksidan olduğu dogmasını kırarak tümörün hücre dışı bir amino asit deposundan beslenebildiğini ortaya koyuyor. Mevcut antioksidan-odaklı kanser metabolizması tedavi stratejilerini kökten sorguluyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Commensal-driven serotonin production modulates in vivo delivery of synthetic and viral vectors",
+    "journal": "Science",
+    "authors": "Wang Qin et al.",
+    "url": "https://doi.org/10.1126/science.adu7686",
+    "pmid": "41855345",
+    "summary": "Bağırsak mikrobiyotası intestinal epitel hücrelerini uyararak serotonin üretimini artırıyor; bu serotonin Kupffer hücrelerini uzaktan aktive ederek nanopartikülleri ve viral vektörleri karaciğerde temizliyor. Serotonin reseptörü blokajı veya diyet müdahalesi, mRNA bazlı terapilerde 5-15 kat, somaik gen düzenlemesinde ise 3 kat etkinlik artışı sağladı.",
+    "why_interesting": "Gen ve ilaç terapisinin neden hastadan hastaya bu denli farklı etkinlik gösterdiğini açıklayabilecek tamamen beklenmedik bir gut-karaciğer ekseni. Mikrobiyomun nanopartiküler ilaç biyo-dağılımını kontrol ettiği fikri klinik çeviri için dev bir anlam taşıyor.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "Overcoming T cell tolerance to tumor self-antigens through catch-bond engineering",
+    "journal": "Science",
+    "authors": "Chen Xiaojing et al.",
+    "url": "https://doi.org/10.1126/science.adx3162",
+    "pmid": "41855322",
+    "summary": "TCR-pMHC bağ ömrünü artıran 'catch-bond' sıcak noktasındaki tek aminoasit mutasyonu, fizyolojik afiniteyi korurken tümöre özgü T hücre yanıtını dramatik biçimde güçlendirdi. Mekanizma, arayüzde su moleküllerinin yeniden organizasyonuyla açıklandı. Tümörde belirgin ekspansiyon ve solid tümör eliminasyonu sağlandı.",
+    "why_interesting": "Merkezi toleransın yarattığı sorunun biyo-fiziksel kuvvetler üzerinden aşılabileceğini gösteren kavramsal sıçrama. İmmünoloji ile mekanik biyofizik arasında köprü kurarak, afinite artırımı yerine mekanik kuvvet manipülasyonunu TCR mühendisliği için yeni bir eksen olarak konumlandırıyor.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Transplantation of encapsulated mitochondria alleviates dysfunction in mitochondrial and Parkinson's disease models",
+    "journal": "Cell",
+    "authors": "Du Shiwei et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.023",
+    "pmid": "41856111",
+    "summary": "Eritrosit plazma membranından türetilen veziküllere sarılı mitokondri, fare ve maymunlarda somatik hücrelere yüksek verimlilikle aktarıldı. DGUOK-/- (mitokondriyal DNA tükenme sendromu), NDUFS4-/- (Leigh sendromu) ve Parkinson hastalığı modellerinde kurtarıcı etki gösterildi.",
+    "why_interesting": "Tek bir organelin nakledilerek hastalığın tedavi edilebildiğini kanıtlayan bu 'organel terapisi' yaklaşımı, hücresel terapinin yeni bir paradigmasını açıyor. Mitokondriyal hastalıklar için günümüzde hiçbir kür yöntemi yoktur; bu çalışma köklü bir değişimin habercisi.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "From chronic pain to depression: Neurogenesis-driven microglial remodeling in the hippocampal dentate gyrus",
+    "journal": "Science",
+    "authors": "Ding Ming et al.",
+    "url": "https://doi.org/10.1126/science.aee6177",
+    "pmid": "41855330",
+    "summary": "İnsan nörogörüntüleme (UK Biobank) ve kemirgen modelini entegre eden çalışma, kronik ağrının depresyona evrilmesinde bifazik hipokampal yeniden yapılanma tespit etti: erken evrede paradoksal kognitif iyileşme ve hacim artışı, geç evrede DG'nin hub rolüyle mikroglia aracılı devre dengesizliği. Mikroglia modülasyonu affektif semptomları kognisyona zarar vermeksizin geri döndürdü.",
+    "why_interesting": "Ağrının depresyona dönüşümünün neden bazı hastalarda gerçekleştiğini açıklayan mekanistik bir çerçeve sunuyor. Erken fazda kognitif iyileşmenin gözlemlenmesi beklenmedik bir bulgudur; tedavide sadece nörogenezi değil mikrogliayı hedef almanın farklı sonuçlar verdiği gösterimi klinik açıdan dönüştürücü olabilir.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Host-derived nitrate fuels indole production by Escherichia coli to drive chronic kidney disease progression",
+    "journal": "Science",
+    "authors": "Lee Jee-Yon et al.",
+    "url": "https://doi.org/10.1126/science.ady5217",
+    "pmid": "41855331",
+    "summary": "KBH → indoksil sülfat birikmesi → mukozal iNOS artışı → luminal nitrat yükselmesi → E. coli nitrat solunumu ile büyüme → daha fazla indol üretimi → ağırlaşan KBH kısır döngüsü tanımlandı. iNOS inhibisyonu farelerde renal patolojiyi hafifletti. KBH hastalarından elde edilen fekal mikrobiyota, nitrat varlığında sağlıklı kontrollere göre daha fazla indol üretti.",
+    "why_interesting": "Konakçı tarafından üretilen metabolitin patojenin büyümesini besleyerek hastalığı daha da kötüleştirdiği, kendi kendini pekiştiren bir gut-böbrek feedback döngüsü ortaya koyuyor. Konakçı-patojen etkileşiminin alışılmadık yönde işlediğini gösteren bu mekanizma, KBH yönetimine yepyeni bir pencere açıyor.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "Magnetic resonance control of spin-correlated radical pair dynamics in vivo",
+    "journal": "Nature",
+    "authors": "Burd Shaun C et al.",
+    "url": "https://doi.org/10.1038/s41586-026-10282-4",
+    "pmid": "41851455",
+    "summary": "Kırmızı floresan proteinlerin (mScarlet) flavin kofaktörüyle oluşturduğu spin-korelasyonlu radikal çiftleri, elektron spin rezonans frekansında uygulanan statik + radyofrekans manyetik alanlarla kontrol edildi. Etki hem in vitro hem de canlı C. elegans'ta oda sıcaklığında ölçüldü. Koherens süresi >4 ns olarak tahmin edildi.",
+    "why_interesting": "Canlı bir organizmada kuantum mekaniksel radikal çiftlerinin biyomoleküler süreçleri kontrol edebildiğini ilk kez doğrudan kanıtlıyor. Kuantum biyoloji ile uzaktan gen ekspresyonu kontrolü arasında tamamen yeni bir köprü kuran bu yaklaşım, gelecekte manyetik alanla aktive edilebilen terapi kavramlarına zemin hazırlıyor.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "Pathogen host jump risk is not predicted by spillover rate, but rather by novelty",
+    "journal": "PLOS Biology",
+    "authors": "Simony Brandon J et al.",
+    "url": "https://doi.org/10.1371/journal.pbio.3003640",
+    "pmid": "41855227",
+    "summary": "Bayesian çerçevesiyle geliştirilen analitik model, sık spill-over geçmişinin pandemik sıçrama riskini öngörmediğini; tersine, bir patojenin yeni konakçıyla 'spill-over geçmişinin kısalığının' (novelty) asıl risk belirleyicisi olduğunu gösterdi. Yüksek spill-over oranında geçmiş bilginin kazancı artı geleceğe ait beklentilerle tam olarak dengeleniyor.",
+    "why_interesting": "Salgın hazırlığı alanında köklü bir varsayımı — 'sık sıçrayan patojen daha tehlikelidir' — tersine çevirir. Ebola gibi yüksek panik yaratan ama sınırlı pandemi riski taşıyan patojenler ile sessiz sedasiz evrilerek yeni konakçıya adapte olan patojenler arasındaki farkı nicel olarak açıklıyor.",
+    "category": "paradigma-kırıcı"
+  }
+]

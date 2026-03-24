@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Pluripotent stem-cell-based screening uncovers sildenafil as a mitochondrial disease therapy.",
+    "journal": "Cell",
+    "authors": "Zink Annika et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.008",
+    "pmid": "41819105",
+    "summary": "Leigh sendromu (ağır mitokondriyal hastalık) için iPSC-türevi nöral hücrelerde 5.632 bileşiklik ilaç taraması yapılmış. PDE5 inhibitörü sildenafil, mitokondriyal membran potansiyeli defektlerini düzeltmiş, beyin organoidlerinde nörogelişimsel yolakları restore etmiş. Hayvan modellerinde yaşam süresini uzatmış ve 6 hastada motor fonksiyonu iyileştirmiş.",
+    "why_interesting": "Erektil disfonksiyon ilacının ağır bir nörodejeneratif hastalıkta terapötik potansiyel göstermesi tamamen beklenmedik bir disiplinler-arası köprü. iPSC-tabanlı ilaç keşfinden organoid validasyonuna ve hasta tedavisine uzanan tam translasyonel zincir, ilaç yeniden konumlandırma paradigmasının gücünü gösteriyor.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "Respiratory viral infections prime accelerated lung cancer growth.",
+    "journal": "Cell",
+    "authors": "Qian Wei et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.013",
+    "pmid": "41819102",
+    "summary": "Ciddi COVID-19 geçiren hastaların akciğer kanseri riskinin arttığı gösterilmiş. Fare modellerinde viral pnömoninin kalıcı kromatin remodellemesi yoluyla pro-tümör mikroçevre oluşturduğu, nötrofil birikimi ve immunosupresyon ile tümör büyümesini hızlandırdığı ortaya konmuş. Aşılama bu etkiyi azaltırken, nötrofil rekrütman blokajı + anti-PD-L1 kombinasyonu tümör büyümesini baskılamış.",
+    "why_interesting": "Viral enfeksiyonların 'inflamatuar hafıza' yoluyla kanser gelişimini tetikleyebileceği kavramı, enfeksiyon-kanser ilişkisine yeni bir mekanistik çerçeve sunuyor. COVID sonrası uzun vadeli kanser surveyansı gerekliliğini vurgulayan ve aşılamanın anti-kanser koruyucu etkisini gösteren paradigma-kırıcı bulgular.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Human-specific features of the cerebellum and ZP2-regulated synapse development.",
+    "journal": "Cell",
+    "authors": "Kim Suel-Kee et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.014",
+    "pmid": "41819103",
+    "summary": "İnsan, şempanze, makak ve marmoset serebellumlarının tek çekirdek transkriptomik ve kromatin erişilebilirlik profilleri karşılaştırılmış. Sperm reseptörü olarak bilinen zona pellucida glikoprotein 2'nin (ZP2) insana özgü granül hücrelerde zenginleştiği ve sinaps düzenlemesinde rol oynadığı keşfedilmiş.",
+    "why_interesting": "Gamet etkileşiminde rol oynayan bir proteinin beyin evriminde sinaps düzenleyici olarak 'devşirilmesi', evrimsel biyolojide son derece beklenmedik bir bulgu. Üreme biyolojisi ile nörobilim arasında hiç öngörülmemiş bir köprü kurarak insan serebellar evriminin moleküler temellerine ışık tutuyor.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Reversibility and β-sheet formation are decoupled in tau condensate aging.",
+    "journal": "PNAS",
+    "authors": "Fischer Charlotte M et al.",
+    "url": "https://doi.org/10.1073/pnas.2522993123",
+    "pmid": "41824494",
+    "summary": "Tau proteininin biyomoleküler kondensatlardan patolojik agregatara geçişinde β-tabaka oluşumu ile termodinamik geri dönüşümsüzlüğün farklı hızlarda ve faz uzayının farklı bölgelerinde ortaya çıktığı gösterilmiş. β-tabaka açısından zengin ama geri dönüşümlü, ve geri dönüşümsüz ama β-tabaka yapısı olmayan ara türler tanımlanmış.",
+    "why_interesting": "Tau agregasyonunun basit doğrusal bir fibril oluşum sürecinden ibaret olduğu konvansiyonel görüşünü çürütüyor. Yapısal değişim ile geri dönüşümsüzlüğün mekanistik olarak ayrışması, Alzheimer terapötik müdahale penceresi için tamamen yeni hedefler öne sürüyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Reducing PTSD symptoms through unconscious intervention.",
+    "journal": "PNAS",
+    "authors": "Yang Qing et al.",
+    "url": "https://doi.org/10.1073/pnas.2521088123",
+    "pmid": "41824495",
+    "summary": "Travma ipuçlarının bilinçaltı (subliminal) sunumu ile bilateral göz hareketi kombinasyonu PTSD semptomlarını azaltmış. Dört deneyde test edilmiş; PTSD hastalarında intrüzyon sıklığı %56 azalmış ve etki en az 2 ay sürmüş. Konvansiyonel maruz bırakma terapisini tolere edemeyen hastalar müdahale sonrası bilinçli yüzleşmeyi başarabilmiş.",
+    "why_interesting": "Travma terapisinin bilinçli ve sıkıntı verici yeniden maruziyete dayandığı dogmasını sorgulayan radikal bir yaklaşım. 2 saatten kısa, minimal sıkıntılı ve sınırlı hasta ifşası gerektiren bu yöntem, tedaviye erişemeyen ağır travma hastaları için paradigma değiştirici potansiyel taşıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Non-peptide dysbiosis metabolites reprogram a peptide quorum-sensing receptor to induce sustained predation in beneficial streptococci.",
+    "journal": "PLOS Biology",
+    "authors": "Cerckel Guillaume et al.",
+    "url": "https://doi.org/10.1371/journal.pbio.3003718",
+    "pmid": "41824463",
+    "summary": "RRNPPA süperfamilyasından ComR reseptörünün sadece peptid feromonlarla değil, disbiyoz metaboliti olan hidroksifenil asetik asit (HPAA) tarafından da aktive edilebildiği keşfedilmiş. HPAA, aynı kanonik peptid cebine bağlanarak sürekli bakteriyosin ekspresyonunu tetiklerken, nativ peptid sinyalinin tetiklediği kompetans programını atlıyor.",
+    "why_interesting": "Quorum-sensing reseptörlerinin yalnızca peptid sinyallerini algıladığı kabul ediliyordu; bu çalışma non-peptid metabolitlerin aynı reseptörü yeniden programlayabildiğini göstererek türler-arası kimyasal iletişimde yeni bir paradigma sunuyor. Disbiyoz ile komensal bakterilerin yırtıcı davranışı arasındaki bağlantı, oral mikrobiyom ekolojisini yeniden düşündürüyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Stretch and flow at the gliovascular interface: High-fidelity modeling of astrocyte endfeet.",
+    "journal": "PNAS",
+    "authors": "Causemann Marius et al.",
+    "url": "https://doi.org/10.1073/pnas.2517059123",
+    "pmid": "41824500",
+    "summary": "3D elektron mikroskobu verileriyle oluşturulan poroelastik model, perivasküler alandaki sıvı değişiminin AQP4'ten zengin endfoot membranı yerine endfoot-arası boşluklardan gerçekleştiğini öngörüyor. PVS sertliğinin artması (yaşlanma, damar patolojisi) sıvı değişimini minimize ediyor veya tersine çeviriyor.",
+    "why_interesting": "Beyin sıvı dinamiklerinde AQP4 kanallarının merkezi rol oynadığı yaygın görüşüne meydan okuyor. Sıvı değişiminin esas olarak mekanik basınç farkları ile inter-endfoot boşluklarından gerçekleştiği bulgusu, glimfatik sistem ve nörodejeneratif hastalıklardaki atık temizleme mekanizmalarına yeni bir perspektif kazandırıyor.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Cell-type-specific transposon demethylation and TAD remodeling in aging mouse brain.",
+    "journal": "Cell",
+    "authors": "Zeng Qiurui et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.015",
+    "pmid": "41819104",
+    "summary": "132.551 tek-hücre metilom ve 72.666 ortak kromatin konformasyon-metilom çekirdeğinden oluşan kapsamlı beyin yaşlanma atlası oluşturulmuş. Transpozon metilasyonunun tek başına yaş gruplarını ayırt edebildiği, hücre tipine özgü genom çapında demetilasyon ve yaşa bağlı TAD sınır güçlenmesi gösterilmiş. Derin öğrenme modelleri epigenetik özelliklerden yaşa bağlı gen ekspresyon değişikliklerini tahmin edebiliyor.",
+    "why_interesting": "Transpozon demetilasyonunun yaşlanmanın evrensel bir epigenetik imzası olarak ortaya çıkması ve hücre tipine özgü farklılıklar göstermesi, beyin yaşlanmasının mekanistik anlayışına yeni bir çerçeve sunuyor. Çok-modaliteli tek-hücre epigenomik yaklaşımı ve derin öğrenme entegrasyonu metodolojik olarak da öncü nitelikte.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Speech Auditory Brainstem Response to Predict Language Delay.",
+    "journal": "Pediatrics",
+    "authors": "Wong Patrick C M et al.",
+    "url": "https://doi.org/10.1542/peds.2025-073409",
+    "pmid": "41833316",
+    "summary": "423 bebekte EEG ile ölçülen konuşma işitsel beyin sapı yanıtları, dil gecikmesini %90'ın üzerinde duyarlılık ve AUC ile tahmin edebiliyor. Nöral ölçümler, gestasyonel yaş ve doğum ağırlığı gibi klinik parametrelerin tek başına sağladığı tahmin gücünü önemli ölçüde aşıyor.",
+    "why_interesting": "Preterm doğumun dil gecikmesi için iyi bir prediktör olduğu bilinse de bireysel düzeyde tahmin yetersizdi. Bebeklik döneminde basit bir EEG ölçümünün bu kadar yüksek doğrulukla dil gecikmesini öngörebilmesi, erken müdahale için yeni bir tarama paradigması sunuyor ve nöral biyobelirteçlerin klinik karar vermedeki potansiyelini gösteriyor.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Coherence time in biological oscillator assemblies bounds the rate of state registration.",
+    "journal": "Biosystems",
+    "authors": "Todd Ian",
+    "url": "https://doi.org/10.1016/j.biosystems.2026.105755",
+    "pmid": "41831516",
+    "summary": "Kuplajlı osilatör ağlarında geri dönüşümsüz durum kaydı arasındaki minimum sürenin koordinasyon derinliği ile üstel olarak arttığı türetilmiş. Bu temel hız-esneklik ödünleşimi, bağımsız parametrelerle ampirik 30-50 ms görsel bağlama penceresini yeniden üretiyor ve koordinasyon süresinin biyolojik sinir sistemlerinde kuantum ve termodinamik limitlerden büyüklük mertebeleri kadar baskın olduğunu gösteriyor.",
+    "why_interesting": "Bilişsel işlemlerin hızını belirleyen fiziksel ilkelere formel bir çerçeve sunuyor. Modüller arası faz hizalamasının biyolojik işlemedeki baskın hız sınırlayıcı adım olduğu önerisi, nörobilim ile istatistiksel fizik arasında özgün bir köprü kuruyor ve bilinç araştırmalarına test edilebilir nicel tahminler sağlıyor.",
+    "category": "yeni-çerçeve"
+  }
+]
