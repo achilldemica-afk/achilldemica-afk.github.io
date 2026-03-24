@@ -146,7 +146,8 @@
         const short = msg.selectedText.length > 60 ? msg.selectedText.substring(0, 60) + '...' : msg.selectedText;
         quoteHtml = `<div class="acm-chat-msg-quote">"${escapeHtml(short)}"</div>`;
       }
-      html += `<div class="acm-chat-msg ${cls}">${quoteHtml}${escapeHtml(msg.content)}</div>`;
+      const contentHtml = msg.role === 'assistant' ? markdownToHtml(msg.content) : escapeHtml(msg.content);
+      html += `<div class="acm-chat-msg ${cls}">${quoteHtml}${contentHtml}</div>`;
     }
     if (isLoading) {
       html += `<div class="acm-chat-msg assistant acm-chat-typing">...</div>`;
@@ -201,6 +202,28 @@
   function escapeHtml(str) {
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/\n/g, '<br>');
+  }
+
+  function markdownToHtml(str) {
+    let s = str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    // Bold: **text** or __text__
+    s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    s = s.replace(/__(.+?)__/g, '<strong>$1</strong>');
+    // Italic: *text* or _text_
+    s = s.replace(/\*(.+?)\*/g, '<em>$1</em>');
+    s = s.replace(/_(.+?)_/g, '<em>$1</em>');
+    // Inline code: `text`
+    s = s.replace(/`(.+?)`/g, '<code>$1</code>');
+    // Bullet lists: * item or - item
+    s = s.replace(/^[\*\-] (.+)/gm, '<li>$1</li>');
+    s = s.replace(/(<li>.*<\/li>\n?)+/g, '<ul>$&</ul>');
+    // Headings: ## text
+    s = s.replace(/^### (.+)/gm, '<strong style="font-size:0.95em">$1</strong>');
+    s = s.replace(/^## (.+)/gm, '<strong style="font-size:1.05em">$1</strong>');
+    s = s.replace(/^# (.+)/gm, '<strong style="font-size:1.1em">$1</strong>');
+    // Line breaks
+    s = s.replace(/\n/g, '<br>');
+    return s;
   }
 
   // Init when DOM ready
