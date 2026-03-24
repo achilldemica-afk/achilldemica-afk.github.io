@@ -55,7 +55,7 @@
       <div class="acm-chat-messages" id="acm-chat-messages">
         <div class="acm-chat-welcome">
           <p>Makale hakkinda soru sorabilirsin.</p>
-          <p style="font-size:12px;color:#b8a898">Metni secip "AI'a sor" butonuna da basabilirsin.</p>
+          <p style="font-size:12px;color:#b8a898">Metni secersen otomatik olarak buraya aktarilir.</p>
         </div>
       </div>
       <div id="acm-chat-selected-bar" style="display:none" class="acm-chat-selected">
@@ -155,12 +155,7 @@
 
   // ==================== Text Selection ====================
   function setupTextSelection() {
-    let tooltip = null;
-
     document.addEventListener('mouseup', function(e) {
-      // Remove old tooltip
-      if (tooltip) { tooltip.remove(); tooltip = null; }
-
       const sel = window.getSelection();
       const text = sel.toString().trim();
       if (!text || text.length < 5) return;
@@ -169,36 +164,12 @@
       const article = document.querySelector('article');
       if (!article || !article.contains(sel.anchorNode)) return;
 
-      // Create tooltip
-      const range = sel.getRangeAt(0);
-      const rect = range.getBoundingClientRect();
-      tooltip = document.createElement('div');
-      tooltip.className = 'acm-selection-tooltip';
-      tooltip.textContent = 'AI\'a sor';
-      tooltip.style.top = (rect.top + window.scrollY - 36) + 'px';
-      tooltip.style.left = (rect.left + window.scrollX + rect.width / 2 - 40) + 'px';
-      tooltip.onclick = function() {
-        selectedText = text;
-        if (!isOpen) toggleChat();
-        // Panel oluştuktan sonra selectedBar'ı güncelle
-        setTimeout(() => {
-          updateSelectedBar();
-          const input = document.getElementById('acm-chat-input');
-          if (input) input.focus();
-        }, 100);
-        tooltip.remove();
-        tooltip = null;
-        sel.removeAllRanges();
-      };
-      document.body.appendChild(tooltip);
-    });
-
-    // Hide tooltip on click elsewhere
-    document.addEventListener('mousedown', function(e) {
-      if (tooltip && !tooltip.contains(e.target)) {
-        tooltip.remove();
-        tooltip = null;
-      }
+      // Otomatik chat'e aktar (tooltip yok)
+      selectedText = text;
+      if (!isOpen) toggleChat();
+      setTimeout(() => {
+        updateSelectedBar();
+      }, 100);
     });
   }
 
