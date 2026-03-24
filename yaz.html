@@ -160,16 +160,23 @@ function initEditor() {
   });
 }
 
+// Update tab label based on login state
+function updateTabLabel(loggedIn) {
+  document.querySelectorAll('a[href="/yaz.html"]').forEach(function(a){ a.textContent = loggedIn ? 'Yaz' : 'Yazar Girişi'; });
+}
+
 // Show/hide screens
 function showLogin() {
   document.getElementById('login-screen').style.display = 'block';
   document.getElementById('editor-screen').style.display = 'none';
+  updateTabLabel(false);
 }
 
 function showEditor() {
   document.getElementById('login-screen').style.display = 'none';
   document.getElementById('editor-screen').style.display = 'block';
   document.getElementById('user-display-name').textContent = currentUser.displayName;
+  updateTabLabel(true);
   initEditor();
   loadMySubmissions();
 }

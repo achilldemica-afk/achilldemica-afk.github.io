@@ -182,5 +182,8 @@ function renderArticles() {
 // Başlat
 loadArticles();
 </script>
+<script>
+(function(){var t=localStorage.getItem('achilldemica_token');document.querySelectorAll('a[href="/yaz.html"]').forEach(function(a){a.textContent=t?'Yaz':'Yazar Girişi'});})();
+</script>
 </body>
 </html>
