@@ -94,15 +94,18 @@ let currentDate = new Date();
 let articles = [];
 let activeCategory = null;
 
-// Bugüne set et
-function today() { return new Date().toISOString().split('T')[0]; }
+// Yerel tarih YYYY-MM-DD (UTC offset sorununu önler)
+function localDateStr(d) {
+  return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+}
+function today() { return localDateStr(new Date()); }
 
 function formatDate(d) {
   const months = ['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
   return d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear();
 }
 
-function dateStr(d) { return d.toISOString().split('T')[0]; }
+function dateStr(d) { return localDateStr(d); }
 
 function changeDate(delta) {
   currentDate.setDate(currentDate.getDate() + delta);
