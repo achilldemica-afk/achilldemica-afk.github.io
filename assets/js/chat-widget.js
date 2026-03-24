@@ -179,9 +179,13 @@
       tooltip.style.left = (rect.left + window.scrollX + rect.width / 2 - 40) + 'px';
       tooltip.onclick = function() {
         selectedText = text;
-        updateSelectedBar();
         if (!isOpen) toggleChat();
-        document.getElementById('acm-chat-input').focus();
+        // Panel oluştuktan sonra selectedBar'ı güncelle
+        setTimeout(() => {
+          updateSelectedBar();
+          const input = document.getElementById('acm-chat-input');
+          if (input) input.focus();
+        }, 100);
         tooltip.remove();
         tooltip = null;
         sel.removeAllRanges();
