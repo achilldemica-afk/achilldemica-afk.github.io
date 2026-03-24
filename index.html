@@ -12,9 +12,10 @@
 :root { --bg:#faf7f2; --text:#4a3f32; --heading:#2c2416; --accent:#c4956a; --border:#e0d5c5; }
 *{box-sizing:border-box}
 body{font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--text);line-height:1.8;margin:0}
-nav{font-family:-apple-system,sans-serif;padding:20px;max-width:800px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;font-size:14px}
-nav a{color:var(--accent);text-decoration:none;font-weight:600}
-nav a:hover{text-decoration:underline}
+.tab-nav{font-family:-apple-system,sans-serif;display:flex;gap:0;max-width:1100px;margin:0 auto;padding:16px 20px 0;border-bottom:2px solid var(--border)}
+.tab-link{padding:10px 24px;text-decoration:none;font-size:14px;font-weight:600;color:var(--accent);border-bottom:2px solid transparent;margin-bottom:-2px;transition:all 0.15s}
+.tab-link:hover{color:var(--heading);border-bottom-color:var(--accent)}
+.tab-link.active{color:var(--heading);border-bottom-color:var(--heading)}
 article{max-width:680px;margin:0 auto;padding:40px 20px 80px}
 article h1{font-size:2.2em;color:var(--heading);margin-bottom:0.3em;font-style:italic;line-height:1.2}
 article h2{font-size:1.5em;color:var(--heading);margin-top:2em;border-bottom:1px solid var(--border);padding-bottom:6px}
@@ -30,30 +31,7 @@ article th{background:#f5efe6;font-weight:600}
 .citation-node{background:#eff6ff;border:1px solid #bfdbfe;border-radius:3px;padding:1px 4px;font-size:0.9em;color:#1d4ed8}
 footer{text-align:center;padding:40px 20px;font-family:-apple-system,sans-serif;font-size:13px;color:#a0937e;border-top:1px solid var(--border);max-width:680px;margin:0 auto}
 footer a{color:var(--accent)}
-.comments-section{max-width:680px;margin:0 auto;padding:20px 20px 40px;border-top:1px solid var(--border)}
-.comments-section h3{font-family:-apple-system,sans-serif;font-size:16px;color:var(--heading);margin-bottom:16px}
-.comments-section form{display:flex;flex-direction:column;gap:12px}
-.form-row{display:flex;gap:12px}
-.form-row input{flex:1}
-.comments-section input,.comments-section textarea{font-family:-apple-system,sans-serif;font-size:14px;padding:10px 14px;border:1px solid var(--border);border-radius:6px;background:white;color:var(--text);outline:none;transition:border-color 0.15s}
-.comments-section input:focus,.comments-section textarea:focus{border-color:var(--accent)}
-.comments-section textarea{resize:vertical;line-height:1.5}
-.form-publish-choice{font-family:-apple-system,sans-serif;font-size:14px;color:var(--text)}
-.form-publish-choice p{margin:0 0 8px;font-weight:600;font-size:13px}
-.form-publish-choice label{display:block;margin:4px 0;cursor:pointer;font-size:14px}
-.form-publish-choice input[type="radio"]{margin-right:6px;accent-color:var(--accent)}
-.comments-section button[type="submit"]{font-family:-apple-system,sans-serif;font-size:14px;padding:10px 24px;background:var(--accent);color:white;border:none;border-radius:6px;cursor:pointer;align-self:flex-start;font-weight:600;transition:background 0.15s}
-.comments-section button[type="submit"]:hover{background:#b07e52}
-.ask-author{border-top:none;padding-top:0}
-.ask-desc{font-family:-apple-system,sans-serif;font-size:13px;color:#a0937e;margin:0 0 12px}
-#approved-comments{max-width:680px;margin:0 auto;padding:0 20px}
-.comment-item{padding:16px 0;border-bottom:1px solid var(--border)}
-.comment-author{font-family:-apple-system,sans-serif;font-size:13px;font-weight:600;color:var(--heading)}
-.comment-date{font-size:12px;color:#a0937e;margin-left:8px}
-.comment-text{margin:6px 0;font-size:15px;line-height:1.6}
-.comment-reply{margin:8px 0 0 20px;padding:10px 16px;background:#f5efe6;border-left:3px solid var(--accent);border-radius:0 6px 6px 0;font-size:14px}
-.comment-reply strong{font-family:-apple-system,sans-serif;font-size:12px;color:var(--accent)}
-@media(max-width:600px){article{padding:20px 16px}article h1{font-size:1.6em}.form-row{flex-direction:column}}
+@media(max-width:600px){article{padding:20px 16px}article h1{font-size:1.6em}}
 
 .posts{max-width:680px;margin:0 auto;padding:40px 20px}
 .posts h1{font-size:1.8em;color:var(--heading);margin-bottom:0.5em}
@@ -66,6 +44,10 @@ footer a{color:var(--accent)}
 </style>
 </head>
 <body>
+<nav class="tab-nav">
+  <a href="/" class="tab-link active">Yazılarım</a>
+  <a href="/kesket.html" class="tab-link">Tıbbi Makale Keşfeti</a>
+</nav>
 <div class="posts">
 <h1>achilldemica</h1>
 
@@ -74,13 +56,6 @@ footer a{color:var(--accent)}
     <span class="post-lang">TR</span>
     <h2>Fonksiyona Ahlak Atamak Hakkında</h2>
     <p>Özne üretimi ve sonuçlarının tartışıldığı bir yazı.</p>
-  </a>
-
-  <a href="posts/yeni-makaleeeeeee.html" class="post-card">
-    <span class="post-date">2026-03-24</span>
-    <span class="post-lang">TR</span>
-    <h2>Yeni Makaleeeeeee</h2>
-    <p></p>
   </a>
 </div>
 <footer><p>&copy; achilldemica</p></footer>
