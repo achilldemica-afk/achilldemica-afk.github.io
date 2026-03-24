@@ -38,6 +38,8 @@
     if (isOpen) {
       if (!panel) panel = createPanel();
       panel.style.display = 'flex';
+      // Seçili metin varsa göster
+      if (selectedText) updateSelectedBar();
     } else if (panel) {
       panel.style.display = 'none';
     }
@@ -50,7 +52,7 @@
     panel.innerHTML = `
       <div class="acm-chat-header">
         <span>AI Asistan</span>
-        <button class="acm-chat-header-close" onclick="document.getElementById('acm-chat-panel').style.display='none'">&times;</button>
+        <button class="acm-chat-header-close" onclick="window._acmCloseChat()">&times;</button>
       </div>
       <div class="acm-chat-messages" id="acm-chat-messages">
         <div class="acm-chat-welcome">
@@ -164,12 +166,10 @@
       const article = document.querySelector('article');
       if (!article || !article.contains(sel.anchorNode)) return;
 
-      // Otomatik chat'e aktar (tooltip yok)
+      // Seçili metni aktar, chat açılmıyorsa kullanıcı kendisi açar
       selectedText = text;
-      if (!isOpen) toggleChat();
-      setTimeout(() => {
-        updateSelectedBar();
-      }, 100);
+      // Chat zaten açıksa hemen güncelle
+      if (isOpen) updateSelectedBar();
     });
   }
 
@@ -189,6 +189,12 @@
   window._acmClearSelection = function() {
     selectedText = '';
     updateSelectedBar();
+  };
+
+  window._acmCloseChat = function() {
+    isOpen = false;
+    const panel = document.getElementById('acm-chat-panel');
+    if (panel) panel.style.display = 'none';
   };
 
   // ==================== Helpers ====================
