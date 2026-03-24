@@ -55,6 +55,10 @@ footer a{color:var(--accent)}
 .comment-reply strong{font-family:-apple-system,sans-serif;font-size:12px;color:var(--accent)}
 @media(max-width:600px){article{padding:20px 16px}article h1{font-size:1.6em}.form-row{flex-direction:column}}
 
+.tab-nav{font-family:-apple-system,sans-serif;display:flex;gap:0;max-width:1100px;margin:0 auto;padding:16px 20px 0;border-bottom:2px solid var(--border)}
+.tab-link{padding:10px 24px;text-decoration:none;font-size:14px;font-weight:600;color:var(--accent);border-bottom:2px solid transparent;margin-bottom:-2px;transition:all 0.15s}
+.tab-link:hover{color:var(--heading);border-bottom-color:var(--accent)}
+.tab-link.active{color:var(--heading);border-bottom-color:var(--heading)}
 .posts{max-width:680px;margin:0 auto;padding:40px 20px}
 .posts h1{font-size:1.8em;color:var(--heading);margin-bottom:0.5em}
 .post-card{display:block;padding:20px 0;border-bottom:1px solid var(--border);text-decoration:none;color:var(--text);transition:padding-left 0.15s}
@@ -66,6 +70,10 @@ footer a{color:var(--accent)}
 </style>
 </head>
 <body>
+<nav class="tab-nav">
+  <a href="/" class="tab-link active">Yazılarım</a>
+  <a href="/kesket.html" class="tab-link">Tıbbi Makale Keşfeti</a>
+</nav>
 <div class="posts">
 <h1>achilldemica</h1>
 
