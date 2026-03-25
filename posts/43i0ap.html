@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>fvdfadf — achilldemica</title>
+<meta name="description" content="">
+<link rel="canonical" href="https://achilldemica.com/posts/43i0ap.html">
+<style>
+:root { --bg:#faf7f2; --text:#4a3f32; --heading:#2c2416; --accent:#c4956a; --border:#e0d5c5; }
+*{box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--text);line-height:1.8;margin:0}
+.tab-nav{font-family:-apple-system,sans-serif;display:flex;gap:0;max-width:1100px;margin:0 auto;padding:16px 20px 0;border-bottom:2px solid var(--border)}
+.tab-link{padding:10px 24px;text-decoration:none;font-size:14px;font-weight:600;color:var(--accent);border-bottom:2px solid transparent;margin-bottom:-2px;transition:all 0.15s}
+.tab-link:hover{color:var(--heading);border-bottom-color:var(--accent)}
+.tab-link.active{color:var(--heading);border-bottom-color:var(--heading)}
+article{max-width:680px;margin:0 auto;padding:40px 20px 80px}
+article h1{font-size:2.2em;color:var(--heading);margin-bottom:0.3em;font-style:italic;line-height:1.2}
+article h2{font-size:1.5em;color:var(--heading);margin-top:2em;border-bottom:1px solid var(--border);padding-bottom:6px}
+article h3{font-size:1.2em;color:var(--heading);margin-top:1.5em}
+.meta{font-family:-apple-system,sans-serif;font-size:13px;color:var(--accent);margin-bottom:2em}
+article img{max-width:100%;border-radius:4px;margin:1em 0}
+article blockquote{border-left:3px solid var(--accent);margin:1.5em 0;padding:0.5em 1.5em;color:#6b5e4f;font-style:italic}
+article table{border-collapse:collapse;width:100%;margin:1em 0}
+article td,article th{border:1px solid var(--border);padding:8px 12px;text-align:left}
+article th{background:#f5efe6;font-weight:600}
+a{color:var(--accent)}
+.citation-node{background:#eff6ff;border:1px solid #bfdbfe;border-radius:3px;padding:1px 4px;font-size:0.9em;color:#1d4ed8}
+.interactive-widget{margin:2em 0;padding:1em;border:1px solid var(--border);border-radius:8px;background:white}
+footer{text-align:center;padding:40px 20px;font-family:-apple-system,sans-serif;font-size:13px;color:#a0937e;border-top:1px solid var(--border);max-width:680px;margin:0 auto}
+footer a{color:var(--accent)}
+.comments-section{max-width:680px;margin:0 auto;padding:20px 20px 40px;border-top:1px solid var(--border)}
+.comments-section h3{font-family:-apple-system,sans-serif;font-size:16px;color:var(--heading);margin-bottom:16px}
+.comments-section form{display:flex;flex-direction:column;gap:12px}
+.form-row{display:flex;gap:12px}
+.form-row input{flex:1}
+.comments-section input,.comments-section textarea{font-family:-apple-system,sans-serif;font-size:14px;padding:10px 14px;border:1px solid var(--border);border-radius:6px;background:white;color:var(--text);outline:none;transition:border-color 0.15s}
+.comments-section input:focus,.comments-section textarea:focus{border-color:var(--accent)}
+.comments-section textarea{resize:vertical;line-height:1.5}
+.comments-section button[type="submit"]{font-family:-apple-system,sans-serif;font-size:14px;padding:10px 24px;background:var(--accent);color:white;border:none;border-radius:6px;cursor:pointer;align-self:flex-start;font-weight:600;transition:background 0.15s}
+.comments-section button[type="submit"]:hover{background:#b07e52}
+#approved-comments{max-width:680px;margin:0 auto;padding:0 20px}
+@media(max-width:600px){article{padding:20px 16px}article h1{font-size:1.6em}.form-row{flex-direction:column}}
+</style>
+</head>
+<body>
+<nav class="tab-nav">
+  <a href="/" class="tab-link">Yazılarım</a>
+  <a href="/kesket.html" class="tab-link">Tıbbi Makale Keşfeti</a>
+  <a href="/editor/" class="tab-link">Yazar Girişi</a>
+</nav>
+<article>
+<h1>fvdfadf</h1>
+<div class="meta">
+  brt · <time>2026-03-25</time>
+</div>
+<p>zfhghngbv&lt;xbfgn</p>
+</article>
+<section class="comments-section">
+<h3>Yorum Yaz</h3>
+<form action="https://achilldemica-comments.achilldemica.workers.dev" method="POST">
+  <input type="hidden" name="yazi" value="fvdfadf">
+  <input type="hidden" name="slug" value="43i0ap">
+  <div class="form-row">
+    <input type="text" name="isim" id="comment-name" placeholder="Adınız" required>
+    <input type="email" name="email" placeholder="E-posta adresiniz" required>
+  </div>
+  <textarea name="yorum" rows="3" placeholder="Yorumunuz..." required></textarea>
+  <button type="submit">Yorum Gönder</button>
+</form>
+</section>
+<div id="approved-comments"></div>
+<footer><p>&copy; <a href="https://achilldemica.com">achilldemica</a></p></footer>
+<script>
+(function(){
+  var t=localStorage.getItem('blog-editor-token');
+  var a=localStorage.getItem('blog-editor-author');
+  if(t&&a){var n=document.getElementById('comment-name');if(n){n.value=a;n.readOnly=true;n.style.background='#f0fdf4';n.style.color='#16a34a';}}
+  document.querySelectorAll('a[href="/editor/"]').forEach(function(el){el.textContent=t?'Yaz':'Yazar Girişi';});
+})()
+</script>
+</body>
+</html>
