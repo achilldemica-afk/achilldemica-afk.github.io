@@ -34,7 +34,7 @@ footer{text-align:center;padding:40px 20px;font-family:-apple-system,sans-serif;
 <nav class="tab-nav">
   <a href="/" class="tab-link active">Yazılarımız</a>
   <a href="/kesket.html" class="tab-link">Tıbbi Makale Keşfeti</a>
-  <div id="author-slot"></div>
+  <div id="author-slot"><a href="/editor/" class="tab-link" style="margin-bottom:-2px">Yazar Girişi</a></div>
 </nav>
 <div class="posts">
 <p style="color:#a0937e">Henüz yazı yok.</p>
@@ -46,7 +46,7 @@ footer{text-align:center;padding:40px 20px;font-family:-apple-system,sans-serif;
   var aut=localStorage.getItem('blog-editor-author');
   var slot=document.getElementById('author-slot');
   if(!slot)return;
-  if(!tok||!aut){slot.innerHTML='<a href="/editor/" class="tab-link" style="margin-bottom:-2px">Yazar Girişi</a>';return;}
+  if(!tok||!aut)return;
   var open=false,tab='posts';
   slot.innerHTML='<div style="position:relative"><button id="am-btn" style="background:none;border:none;cursor:pointer;font-size:13px;font-weight:600;color:#2c2416;padding:6px 4px;font-family:-apple-system,sans-serif">'+aut+' ▾</button></div>';
   document.getElementById('am-btn').onclick=function(e){e.stopPropagation();open=!open;var d=document.getElementById('am-drop');if(!d){buildDrop();}else{d.style.display=open?'block':'none';}};
