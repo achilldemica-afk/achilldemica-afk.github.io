@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yeni Yazıasda — achilldemica</title>
-<meta name="description" content="shfhsfhsf">
+<title>6haneli deneme — achilldemica</title>
+<meta name="description" content="selam knk">
 <link rel="canonical" href="https://achilldemica.com/posts/yeni-yaziasda.html">
 <style>
 :root { --bg:#faf7f2; --text:#4a3f32; --heading:#2c2416; --accent:#c4956a; --border:#e0d5c5; }
@@ -29,7 +29,18 @@ a{color:var(--accent)}
 .interactive-widget{margin:2em 0;padding:1em;border:1px solid var(--border);border-radius:8px;background:white}
 footer{text-align:center;padding:40px 20px;font-family:-apple-system,sans-serif;font-size:13px;color:#a0937e;border-top:1px solid var(--border);max-width:680px;margin:0 auto}
 footer a{color:var(--accent)}
-@media(max-width:600px){article{padding:20px 16px}article h1{font-size:1.6em}}
+.comments-section{max-width:680px;margin:0 auto;padding:20px 20px 40px;border-top:1px solid var(--border)}
+.comments-section h3{font-family:-apple-system,sans-serif;font-size:16px;color:var(--heading);margin-bottom:16px}
+.comments-section form{display:flex;flex-direction:column;gap:12px}
+.form-row{display:flex;gap:12px}
+.form-row input{flex:1}
+.comments-section input,.comments-section textarea{font-family:-apple-system,sans-serif;font-size:14px;padding:10px 14px;border:1px solid var(--border);border-radius:6px;background:white;color:var(--text);outline:none;transition:border-color 0.15s}
+.comments-section input:focus,.comments-section textarea:focus{border-color:var(--accent)}
+.comments-section textarea{resize:vertical;line-height:1.5}
+.comments-section button[type="submit"]{font-family:-apple-system,sans-serif;font-size:14px;padding:10px 24px;background:var(--accent);color:white;border:none;border-radius:6px;cursor:pointer;align-self:flex-start;font-weight:600;transition:background 0.15s}
+.comments-section button[type="submit"]:hover{background:#b07e52}
+#approved-comments{max-width:680px;margin:0 auto;padding:0 20px}
+@media(max-width:600px){article{padding:20px 16px}article h1{font-size:1.6em}.form-row{flex-direction:column}}
 </style>
 </head>
 <body>
@@ -39,13 +50,36 @@ footer a{color:var(--accent)}
   <a href="/editor/" class="tab-link">Yazar Girişi</a>
 </nav>
 <article>
-<h1>Yeni Yazıasda</h1>
+<h1>6haneli deneme</h1>
 <div class="meta">
   brt · <time>2026-03-25</time>
 </div>
 <p>dasfdsfa <span data-citation-ids="mn62jbawzwm9kxruv,mn62jcie374uigrbb" class="citation-node" title="Trub1-mediated pseudouridylation is dispensable for immune cell development and homeostasis. | Localization of the PelC and PelE effectors to the Legionella-containing vacuole through host-mediated prenylation and their role in intracellular proliferation.">(1-2)</span> fda knknnkaf</p><p></p><p></p><hr><h2>Kaynakça</h2><p>1. Malviya V, Pham CT, Michiels L, Seldeslachts L, Marchand V, Vella G, et al.. Trub1-mediated pseudouridylation is dispensable for immune cell development and homeostasis.. Genes Immun. 2026. doi: 10.1038/s41435-026-00393-3</p><p>2. Shin CJ, Price CTD, Da'as MSJ, Abu Kwaik Y. Localization of the PelC and PelE effectors to the Legionella-containing vacuole through host-mediated prenylation and their role in intracellular proliferation.. Infect Immun. 2026. doi: 10.1128/iai.00605-25</p>
 </article>
+
+<section class="comments-section">
+<h3>Yorum Yaz</h3>
+<form action="https://achilldemica-comments.achilldemica.workers.dev" method="POST">
+  <input type="hidden" name="yazi" value="6haneli deneme">
+  <input type="hidden" name="slug" value="yeni-yaziasda">
+  <div class="form-row">
+    <input type="text" name="isim" id="comment-name" placeholder="Adınız" required>
+    <input type="email" name="email" placeholder="E-posta adresiniz" required>
+  </div>
+  <textarea name="yorum" rows="3" placeholder="Yorumunuz..." required></textarea>
+  <button type="submit">Yorum Gönder</button>
+</form>
+</section>
+<div id="approved-comments"></div>
+
 <footer><p>&copy; <a href="https://achilldemica.com">achilldemica</a></p></footer>
-<script>(function(){var t=localStorage.getItem('blog-editor-token');document.querySelectorAll('a[href="/editor/"]').forEach(function(a){a.textContent=t?'Yaz':'Yazar Girişi'});})()</script>
+<script>
+(function(){
+  var t=localStorage.getItem('blog-editor-token');
+  var a=localStorage.getItem('blog-editor-author');
+  if(t&&a){var n=document.getElementById('comment-name');if(n){n.value=a;n.readOnly=true;n.style.background='#f0fdf4';n.style.color='#16a34a';}}
+  document.querySelectorAll('a[href="/editor/"]').forEach(function(el){el.textContent=t?'Yaz':'Yazar Girişi';});
+})()
+</script>
 </body>
 </html>
