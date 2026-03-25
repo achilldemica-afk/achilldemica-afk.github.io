@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Yazarlık Başvurusu — achilldemica</title>
+<style>
+:root { --bg:#faf7f2; --text:#4a3f32; --heading:#2c2416; --accent:#c4956a; --border:#e0d5c5; }
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.tab-nav{display:flex;gap:0;max-width:1100px;margin:0 auto;padding:16px 20px 0;border-bottom:2px solid var(--border)}
+.tab-link{padding:10px 24px;text-decoration:none;font-size:14px;font-weight:600;color:var(--accent);border-bottom:2px solid transparent;margin-bottom:-2px;transition:all 0.15s}
+.tab-link:hover{color:var(--heading);border-bottom-color:var(--accent)}
+.tab-link.active{color:var(--heading);border-bottom-color:var(--heading)}
+
+.container{max-width:520px;margin:48px auto;padding:0 20px 60px}
+h1{font-family:Georgia,serif;font-size:1.6em;color:var(--heading);margin-bottom:8px;font-style:italic}
+.subtitle{color:#6b5e4f;font-size:14px;margin-bottom:32px;line-height:1.6}
+.form-group{margin-bottom:16px}
+.form-group label{display:block;font-size:13px;font-weight:600;color:var(--heading);margin-bottom:6px}
+.form-group input,.form-group textarea{width:100%;padding:10px 14px;border:1px solid var(--border);border-radius:6px;font-size:14px;font-family:inherit;background:white;color:var(--text);outline:none;transition:border-color 0.15s}
+.form-group input:focus,.form-group textarea:focus{border-color:var(--accent)}
+.form-group textarea{resize:vertical;line-height:1.5}
+.form-group .hint{font-size:12px;color:#a0937e;margin-top:4px}
+.btn-apply{padding:12px 32px;background:var(--accent);color:white;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:background 0.15s;margin-top:8px}
+.btn-apply:hover{background:#b07e52}
+.btn-apply:disabled{opacity:0.6;cursor:not-allowed}
+.status{font-size:13px;margin-top:12px}
+.status.success{color:#155724}
+.status.error{color:#c0392b}
+
+.success-box{text-align:center;padding:60px 20px}
+.success-box .icon{font-size:48px;margin-bottom:16px;color:var(--accent)}
+.success-box h2{font-family:Georgia,serif;color:var(--heading);margin-bottom:12px}
+.success-box p{color:#6b5e4f;line-height:1.6}
+</style>
+</head>
+<body>
+
+<nav class="tab-nav">
+  <a href="/" class="tab-link">Yazılarım</a>
+  <a href="/kesket.html" class="tab-link">Tıbbi Makale Keşfeti</a>
+</nav>
+
+<div class="container" id="form-container">
+  <h1>Yazarlık Başvurusu</h1>
+  <p class="subtitle">achilldemica'da yazmak istiyorsanız aşağıdaki formu doldurun. Başvurunuz değerlendirildikten sonra size dönüş yapılacaktır.</p>
+
+  <form id="apply-form">
+    <div class="form-group">
+      <label>Ad Soyad *</label>
+      <input type="text" id="apply-name" required placeholder="Dr. Ahmet Yılmaz">
+    </div>
+    <div class="form-group">
+      <label>E-posta *</label>
+      <input type="email" id="apply-email" required placeholder="ahmet@ornek.com">
+    </div>
+    <div class="form-group">
+      <label>Uzmanlık Alanı</label>
+      <input type="text" id="apply-expertise" placeholder="Kardiyoloji, Nöroloji, vb.">
+    </div>
+    <div class="form-group">
+      <label>Kısa Biyografi</label>
+      <textarea id="apply-bio" rows="3" placeholder="Kendinizden kısaca bahsedin..."></textarea>
+    </div>
+    <div class="form-group">
+      <label>Örnek Yazı / Profil Linki</label>
+      <input type="url" id="apply-sample" placeholder="https://...">
+      <div class="hint">Daha önce yazdığınız bir yazı, blog, ORCID veya akademik profil linki</div>
+    </div>
+    <button type="submit" class="btn-apply" id="btn-apply">Başvuruyu Gönder</button>
+    <div class="status" id="apply-status"></div>
+  </form>
+</div>
+
+<div class="container success-box" id="success-screen" style="display:none">
+  <div class="icon">&#10003;</div>
+  <h2>Başvurunuz alındı</h2>
+  <p>Değerlendirme sonrası size e-posta ile dönüş yapılacaktır. Teşekkürler!</p>
+</div>
+
+<script>
+const API = 'https://achilldemica-comments.achilldemica.workers.dev';
+
+document.getElementById('apply-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const btn = document.getElementById('btn-apply');
+  const statusEl = document.getElementById('apply-status');
+  btn.disabled = true;
+  statusEl.textContent = '';
+  statusEl.className = 'status';
+
+  const body = {
+    name: document.getElementById('apply-name').value.trim(),
+    email: document.getElementById('apply-email').value.trim(),
+    expertise: document.getElementById('apply-expertise').value.trim(),
+    bio: document.getElementById('apply-bio').value.trim(),
+    sampleUrl: document.getElementById('apply-sample').value.trim()
+  };
+
+  try {
+    const res = await fetch(`${API}/basvuru`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if (!res.ok) {
+      const data = await res.json();
+      statusEl.textContent = data.error || 'Bir hata oluştu.';
+      statusEl.className = 'status error';
+      return;
+    }
+    document.getElementById('form-container').style.display = 'none';
+    document.getElementById('success-screen').style.display = 'block';
+  } catch {
+    statusEl.textContent = 'Bağlantı hatası. Lütfen tekrar deneyin.';
+    statusEl.className = 'status error';
+  } finally {
+    btn.disabled = false;
+  }
+});
+</script>
+</body>
+</html>
