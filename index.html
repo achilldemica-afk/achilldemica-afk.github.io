@@ -70,7 +70,7 @@ footer a{color:var(--accent)}
 <nav class="tab-nav">
   <a href="/" class="tab-link active">Yazılarım</a>
   <a href="/kesket.html" class="tab-link">Tıbbi Makale Keşfeti</a>
-  <a href="/yaz.html" class="tab-link">Yazar Girişi</a>
+  <a href="/editor/" class="tab-link">Yazar Girişi</a>
 </nav>
 <div class="posts">
 <h1>achilldemica</h1>
@@ -84,7 +84,7 @@ footer a{color:var(--accent)}
 </div>
 <footer><p>&copy; achilldemica</p></footer>
 <script>
-(function(){var t=localStorage.getItem('achilldemica_token');document.querySelectorAll('a[href="/yaz.html"]').forEach(function(a){a.textContent=t?'Yaz':'Yazar Girişi'});})();
+(function(){var t=localStorage.getItem('blog-editor-token');document.querySelectorAll('a[href="/editor/"]').forEach(function(a){a.textContent=t?'Yaz':'Yazar Girişi'});})();
 </script>
 </body>
 </html>
